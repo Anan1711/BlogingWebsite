@@ -2,6 +2,7 @@
 
 @section('content')
     <a href="/posts" class = "btn btn-outline-secondary">Go Back</a>
+    <p>
     <h1>{{$post->title}}</h1>
     
     <div>
