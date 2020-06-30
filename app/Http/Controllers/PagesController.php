@@ -15,7 +15,7 @@ class PagesController extends Controller
     
     public function about()
     {
-        $title = 'About ME';
+        $title = 'About Blogatron';
         return view('pages.about')->with('title', $title);
     }
 
@@ -23,7 +23,7 @@ class PagesController extends Controller
     {
         $data = array(
             'title' => 'Services',
-            'services' => ['Web Design', 'Programming']
+            'services' => ['No Services available yet! Come back soon :)']
 
         );
         return view('pages.services')->with($data);
